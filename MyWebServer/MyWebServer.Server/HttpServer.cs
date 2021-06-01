@@ -40,7 +40,7 @@
 
                 Console.WriteLine(requestText);
 
-                var request = HttpRequest.Parse(requestText);
+                //var request = HttpRequest.Parse(requestText);
 
                 await WriteRequest(networkStream);
 
