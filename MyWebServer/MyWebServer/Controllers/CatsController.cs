@@ -1,9 +1,9 @@
 ﻿namespace MyWebServer.Controllers
 {
     using MyWebServer.Server.Http;
-    public class HomeController
+    public class CatsController
     {
-        public HttpResponse Index()
+        public HttpResponse List()
         {
             return null;
         }
