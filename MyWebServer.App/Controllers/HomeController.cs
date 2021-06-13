@@ -6,7 +6,7 @@
 
     public class HomeController : Controller
     {
-        public HttpResponse Index() => Text("Hello from Ivo!");
+        public HttpResponse Index() => Text("Hello from Dido!");
 
         public HttpResponse LocalRedirect() => Redirect("/Animals/Cats");
 
